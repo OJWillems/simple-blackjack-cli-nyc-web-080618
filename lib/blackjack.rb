@@ -1,3 +1,5 @@
+require "pry"
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -24,7 +26,8 @@ end
 
 def initial_round
   2.times do
-    return deal_card
+    deal_card
+    binding.pry
   end
   
 end
