@@ -27,7 +27,7 @@ end
 def initial_round
   2.times do
     deal_card
-    binding.pry
+
   end
   
 end
